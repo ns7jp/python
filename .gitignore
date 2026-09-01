@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# テスト・キャッシュ
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 仮想環境
+.venv/
+venv/
+env/
+
+# 演習実行時に生成される可能性のあるログファイル
+*.log
+
+# エディタ・OS
+.vscode/
+.idea/
+.DS_Store
