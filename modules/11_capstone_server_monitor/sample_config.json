@@ -1,0 +1,17 @@
+{
+  "targets": [
+    {
+      "name": "web-01",
+      "host": "127.0.0.1",
+      "port": 8080,
+      "http_url": null
+    },
+    {
+      "name": "app-01",
+      "host": "127.0.0.1",
+      "port": 8081,
+      "http_url": null
+    }
+  ],
+  "alert_threshold_consecutive_failures": 3
+}
